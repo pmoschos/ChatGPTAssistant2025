@@ -21,7 +21,7 @@ ChatGPT Assistant 2025 is an Android application designed to provide an intuitiv
 
 ## 📱 Screenshots
 
-![image](https://github.com/user-attachments/assets/1acf5ca0-43f1-4660-b1c9-9b88add80ba3)
+![image](https://github.com/user-attachments/assets/6fb84b95-1d1b-4fcf-9c51-0aed7483d724)
 
 ---
 
