@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChatGPTAssistant2025</string>
+    <string name="question_hint">Provide a short question here...</string>
+    <string name="send">SEND</string>
+    <string name="search">Search</string>
+    <string name="are_you_sure_you_want_to_delete_this_item">Are you sure you want to delete this item?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="question">Question</string>
+    <string name="response">Response</string>
+    <string name="chat_gpt_assistant">ChatGPT Assistant</string>
+</resources>

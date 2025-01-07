@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:elevation="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/question_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/delete_tv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/question"
+            android:background="@drawable/rounded_rectangle_question" />
+
+        <TextView
+            android:id="@+id/delete_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="X"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_rectangle_response" />
+
+        <TextView
+            android:id="@+id/response_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question_tv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="18sp"
+            android:background="@drawable/rounded_rectangle_response"
+            android:textColor="@color/black"
+            android:text="@string/response"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:justificationMode="inter_word" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
